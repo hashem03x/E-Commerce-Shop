@@ -1,0 +1,45 @@
+.home .container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 0 40px 0;
+
+}
+
+.productImg{
+    width: 400px;
+    height: 400px;
+    margin: 20px 0 0 0;
+    padding: 10px;
+    border: 2px solid #ddd;
+}
+
+.home .data{
+    margin-left: 20px;
+    text-align: left;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.home .data .name{
+    font-weight: bold;
+    font-size: 22px;
+    padding: 0 0 20px 0;
+    border-bottom: 2px solid black;
+    margin: 20px 0;
+}
+.data .specs {
+    margin-bottom: 25px;
+    color: #544b48;
+}
+
+.data .specs span{
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 1.1px;
+}
+.data .price{
+    font-weight:bold;
+}
