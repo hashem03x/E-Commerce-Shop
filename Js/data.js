@@ -8,7 +8,7 @@ let productsDB = [
         13th gen Intel Core i9 CPU.
         Liquid cooling.
         Dual storage drives.`,
-    imgUrl: "/assets/pc.jpg",
+    imgUrl: "../assets/pc.jpg",
     liked: false,
     qty: 1,
   },
